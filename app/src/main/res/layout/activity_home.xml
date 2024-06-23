@@ -4,10 +4,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
-    android:layout_width="427dp"
+    android:layout_width="447dp"
     android:layout_marginTop="-19dp"
-    android:layout_marginStart="-9dp"
-    android:layout_height="900dp"
+    android:layout_marginStart="-5dp"
+    android:layout_height="910dp"
     android:background="@drawable/bg"
     tools:context=".Home">
 
@@ -65,7 +65,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/textView7"
-        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <TextView
         android:id="@+id/textView8"

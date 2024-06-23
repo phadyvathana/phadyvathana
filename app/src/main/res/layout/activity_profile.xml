@@ -83,13 +83,15 @@
     <View
 
         android:id="@+id/view3"
-        android:layout_width="413dp"
-        android:layout_height="169dp"
+        android:layout_width="444dp"
+        android:layout_height="174dp"
         android:background="#DE3163"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
     <ImageView
         android:id="@+id/imageView13"
@@ -107,7 +109,7 @@
         android:id="@+id/textView25"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Dom Dom"
+        android:text="Phadyvathana"
         android:textColor="#566573"
         android:textSize="20sp"
         android:textStyle="bold"
